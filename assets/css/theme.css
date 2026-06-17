@@ -1,0 +1,480 @@
+/* assets/css/theme.css */
+/* ============================================================
+   Kiro Light Theme - Complete Coverage
+   Modern Purple & Blue Gradient Design
+   ============================================================ */
+
+/* ── Base ── */
+html.light-theme {
+    color-scheme: light;
+}
+
+html.light-theme body {
+    background: #f8f9fa !important;
+    background-image: 
+        radial-gradient(at 40% 20%, rgba(102, 126, 234, 0.05) 0px, transparent 50%),
+        radial-gradient(at 80% 0%, rgba(118, 75, 162, 0.05) 0px, transparent 50%),
+        radial-gradient(at 0% 50%, rgba(102, 126, 234, 0.03) 0px, transparent 50%) !important;
+    color: #2d3748 !important;
+}
+
+/* ── Glass Cards ── */
+html.light-theme .glass-effect {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(30px) !important;
+    border: 1px solid rgba(102, 126, 234, 0.1) !important;
+    box-shadow: 0 8px 32px rgba(102, 126, 234, 0.12), 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* ── Typography - Comprehensive ── */
+html.light-theme,
+html.light-theme body,
+html.light-theme p,
+html.light-theme span,
+html.light-theme div,
+html.light-theme label,
+html.light-theme td,
+html.light-theme th,
+html.light-theme li,
+html.light-theme a:not([class*="bg-"]) {
+    color: #2d3748 !important;
+}
+
+html.light-theme .text-white,
+html.light-theme .text-white\/90,
+html.light-theme .text-white\/80 { 
+    color: #1a202c !important; 
+}
+
+html.light-theme .text-gray-100,
+html.light-theme .text-gray-200,
+html.light-theme .text-gray-300 { 
+    color: #4a5568 !important; 
+}
+
+html.light-theme .text-gray-400 { 
+    color: #718096 !important; 
+}
+
+html.light-theme .text-gray-500,
+html.light-theme .text-gray-600 { 
+    color: #a0aec0 !important; 
+}
+
+html.light-theme h1, html.light-theme h2, html.light-theme h3,
+html.light-theme h4, html.light-theme h5, html.light-theme h6 {
+    color: #1a202c !important;
+    font-weight: 700;
+}
+
+/* Gradient text */
+html.light-theme .text-transparent.bg-clip-text,
+html.light-theme .bg-gradient-to-r {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* ── Backgrounds - Complete ── */
+html.light-theme .bg-gray-900,
+html.light-theme .bg-gray-800,
+html.light-theme .bg-gray-700,
+html.light-theme .bg-gray-800\/80,
+html.light-theme .bg-gray-800\/50,
+html.light-theme .bg-gray-900\/60,
+html.light-theme .bg-gray-900\/50,
+html.light-theme .bg-gray-800\/90 {
+    background: rgba(255, 255, 255, 0.95) !important;
+}
+
+html.light-theme .bg-gray-600 { 
+    background: rgba(255, 255, 255, 0.9) !important; 
+}
+
+html.light-theme .bg-black,
+html.light-theme .bg-black\/50,
+html.light-theme .bg-black\/40,
+html.light-theme .bg-black\/30,
+html.light-theme .bg-black.bg-opacity-50 {
+    background: rgba(26, 32, 44, 0.4) !important;
+    backdrop-filter: blur(12px) !important;
+}
+
+/* ── Borders - Complete ── */
+html.light-theme .border-gray-900,
+html.light-theme .border-gray-800,
+html.light-theme .border-gray-700,
+html.light-theme .border-gray-600 { 
+    border-color: rgba(102, 126, 234, 0.15) !important; 
+}
+
+html.light-theme .border-teal-500,
+html.light-theme .border-teal-500\/20,
+html.light-theme .border-teal-500\/30,
+html.light-theme .border-teal-400 { 
+    border-color: rgba(102, 126, 234, 0.25) !important; 
+}
+
+html.light-theme .border-b,
+html.light-theme .border-t,
+html.light-theme .border-l,
+html.light-theme .border-r {
+    border-color: rgba(102, 126, 234, 0.12) !important;
+}
+
+html.light-theme .divide-y > :not([hidden]) ~ :not([hidden]),
+html.light-theme .divide-gray-800 > :not([hidden]) ~ :not([hidden]) {
+    border-color: rgba(102, 126, 234, 0.1) !important;
+}
+
+/* ── Sidebar ── */
+html.light-theme aside,
+html.light-theme #sidebar {
+    background: rgba(255, 255, 255, 0.98) !important;
+    backdrop-filter: blur(30px) !important;
+    border-right: 1px solid rgba(102, 126, 234, 0.12) !important;
+    box-shadow: 4px 0 24px rgba(102, 126, 234, 0.08) !important;
+}
+
+html.light-theme .menu-active {
+    background: linear-gradient(90deg, rgba(102, 126, 234, 0.12), rgba(102, 126, 234, 0.04)) !important;
+    border-left: 3px solid #667eea !important;
+    color: #667eea !important;
+    text-shadow: none !important;
+    font-weight: 600;
+}
+
+html.light-theme .menu-active i,
+html.light-theme .menu-active span { 
+    color: #667eea !important; 
+}
+
+html.light-theme nav a:not(.menu-active) { 
+    color: #4a5568 !important; 
+}
+
+html.light-theme nav a:not(.menu-active):hover {
+    background: rgba(102, 126, 234, 0.06) !important;
+    color: #667eea !important;
+}
+
+html.light-theme nav a:not(.menu-active):hover i,
+html.light-theme nav a:not(.menu-active):hover span {
+    color: #667eea !important;
+}
+
+/* ── Mobile Header ── */
+html.light-theme .bg-gray-900\/60.backdrop-blur-lg,
+html.light-theme .lg\:hidden.bg-gray-900\/60 {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(30px) !important;
+    border-bottom: 1px solid rgba(102, 126, 234, 0.12) !important;
+    box-shadow: 0 2px 12px rgba(102, 126, 234, 0.06) !important;
+}
+
+/* ── Teal/Purple Accents ── */
+html.light-theme .text-teal-400,
+html.light-theme .text-teal-300,
+html.light-theme .text-teal-500 { 
+    color: #667eea !important; 
+}
+
+html.light-theme .bg-teal-500,
+html.light-theme .bg-teal-600 { 
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important; 
+}
+
+html.light-theme .hover\:bg-teal-600:hover,
+html.light-theme .hover\:bg-teal-500:hover { 
+    background: linear-gradient(135deg, #5568d3 0%, #6a3f8f 100%) !important; 
+}
+
+/* ── Inputs & Forms ── */
+html.light-theme input,
+html.light-theme select,
+html.light-theme textarea {
+    background: #ffffff !important;
+    color: #2d3748 !important;
+    border: 2px solid rgba(102, 126, 234, 0.2) !important;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.04) !important;
+}
+
+html.light-theme input:focus,
+html.light-theme select:focus,
+html.light-theme textarea:focus {
+    background: #ffffff !important;
+    border-color: #667eea !important;
+    box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1), 0 4px 12px rgba(102, 126, 234, 0.08) !important;
+    outline: none !important;
+}
+
+html.light-theme input::placeholder,
+html.light-theme textarea::placeholder { 
+    color: #a0aec0 !important; 
+}
+
+html.light-theme input:-webkit-autofill,
+html.light-theme input:-webkit-autofill:hover,
+html.light-theme input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #2d3748 !important;
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+    border: 2px solid rgba(102, 126, 234, 0.2) !important;
+}
+
+/* ── Buttons ── */
+html.light-theme button {
+    color: #2d3748;
+}
+
+html.light-theme button.bg-teal-500,
+html.light-theme a.bg-teal-500 {
+    color: #ffffff !important;
+}
+
+/* ── Tables ── */
+html.light-theme table,
+html.light-theme table * { 
+    color: #2d3748 !important; 
+}
+
+html.light-theme thead,
+html.light-theme thead tr { 
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.08), rgba(118, 75, 162, 0.08)) !important; 
+}
+
+html.light-theme thead th { 
+    color: #1a202c !important; 
+    border-color: rgba(102, 126, 234, 0.15) !important;
+    font-weight: 700;
+}
+
+html.light-theme tbody tr { 
+    border-color: rgba(102, 126, 234, 0.08) !important; 
+}
+
+html.light-theme tbody td {
+    color: #2d3748 !important;
+}
+
+html.light-theme tbody tr:hover,
+html.light-theme .hover\:bg-purple-900\/5:hover { 
+    background: rgba(102, 126, 234, 0.04) !important; 
+}
+
+/* ── Stat Cards ── */
+html.light-theme [data-stat] { 
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+html.light-theme [data-stat]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(102, 126, 234, 0.15) !important;
+}
+
+html.light-theme .stat-value { 
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* ── Status Colors - Keep Original ── */
+html.light-theme .text-green-500,
+html.light-theme .text-green-400 { 
+    color: #48bb78 !important; 
+}
+
+html.light-theme .text-red-500,
+html.light-theme .text-red-400 { 
+    color: #f56565 !important; 
+}
+
+html.light-theme .text-yellow-500,
+html.light-theme .text-yellow-400 { 
+    color: #ed8936 !important; 
+}
+
+html.light-theme .text-orange-500,
+html.light-theme .text-orange-400 { 
+    color: #f6ad55 !important; 
+}
+
+html.light-theme .text-blue-500,
+html.light-theme .text-blue-400 { 
+    color: #667eea !important; 
+}
+
+/* ── Status Badges ── */
+html.light-theme .bg-green-500\/10  { background: rgba(72, 187, 120, 0.12) !important; }
+html.light-theme .bg-red-500\/10    { background: rgba(245, 101, 101, 0.12) !important; }
+html.light-theme .bg-yellow-500\/10 { background: rgba(237, 137, 54, 0.12) !important; }
+html.light-theme .bg-teal-500\/10   { background: rgba(102, 126, 234, 0.12) !important; }
+html.light-theme .bg-orange-500\/10 { background: rgba(246, 173, 85, 0.12) !important; }
+html.light-theme .bg-purple-500\/10 { background: rgba(159, 122, 234, 0.12) !important; }
+
+html.light-theme .border-green-500\/30 { border-color: rgba(72, 187, 120, 0.3) !important; }
+html.light-theme .border-red-500\/30 { border-color: rgba(245, 101, 101, 0.3) !important; }
+html.light-theme .border-yellow-500\/30 { border-color: rgba(237, 137, 54, 0.3) !important; }
+html.light-theme .border-orange-500\/30 { border-color: rgba(246, 173, 85, 0.3) !important; }
+
+/* ── Notification Panel ── */
+html.light-theme #notificationPanel,
+html.light-theme [id$="Panel"],
+html.light-theme [id$="Modal"] .glass-effect {
+    background: rgba(255, 255, 255, 0.98) !important;
+    backdrop-filter: blur(30px) !important;
+    border: 1px solid rgba(102, 126, 234, 0.15) !important;
+    box-shadow: 0 20px 60px rgba(102, 126, 234, 0.15) !important;
+}
+
+/* ── Modals ── */
+html.light-theme .fixed.inset-0.bg-black\/50,
+html.light-theme .fixed.inset-0.bg-black.bg-opacity-50 {
+    background: rgba(26, 32, 44, 0.5) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+/* ── Scrollbar ── */
+html.light-theme ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+html.light-theme ::-webkit-scrollbar-track,
+html.light-theme .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
+
+html.light-theme ::-webkit-scrollbar-thumb,
+html.light-theme .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(102, 126, 234, 0.4) !important;
+    border-radius: 4px;
+}
+
+html.light-theme ::-webkit-scrollbar-thumb:hover,
+html.light-theme .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(102, 126, 234, 0.6) !important;
+}
+
+/* ── Pagination ── */
+html.light-theme .page-number:not(.current-page) {
+    background: rgba(255, 255, 255, 0.9) !important;
+    color: #4a5568 !important;
+    border: 2px solid rgba(102, 126, 234, 0.2) !important;
+}
+
+html.light-theme .page-number:not(.current-page):hover {
+    background: rgba(102, 126, 234, 0.1) !important;
+    border-color: #667eea !important;
+    color: #667eea !important;
+}
+
+html.light-theme .current-page {
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+/* ── HR Dividers ── */
+html.light-theme hr,
+html.light-theme .border-gray-700\/50 { 
+    border-color: rgba(102, 126, 234, 0.15) !important; 
+}
+
+/* ── Hover States ── */
+html.light-theme .hover\:bg-teal-400\/10:hover,
+html.light-theme .hover\:bg-teal-500\/10:hover { 
+    background: rgba(102, 126, 234, 0.08) !important; 
+}
+
+html.light-theme .hover\:bg-red-500\/10:hover  { 
+    background: rgba(245, 101, 101, 0.08) !important; 
+}
+
+html.light-theme .hover\:text-red-500:hover { 
+    color: #f56565 !important; 
+}
+
+html.light-theme .hover\:bg-gray-800\/60:hover,
+html.light-theme .hover\:bg-gray-800:hover {
+    background: rgba(102, 126, 234, 0.06) !important;
+}
+
+/* ── Icons ── */
+html.light-theme .fa-check,
+html.light-theme i.text-green-400,
+html.light-theme i.text-green-500 { 
+    color: #48bb78 !important; 
+}
+
+html.light-theme .fa-times,
+html.light-theme i.text-red-400,
+html.light-theme i.text-red-500 { 
+    color: #f56565 !important; 
+}
+
+html.light-theme .fa-clock,
+html.light-theme i.text-yellow-400,
+html.light-theme i.text-yellow-500 { 
+    color: #ed8936 !important; 
+}
+
+html.light-theme i.text-teal-400,
+html.light-theme i.text-teal-300 { 
+    color: #667eea !important; 
+}
+
+/* ── Smooth Transitions ── */
+html.light-theme * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+/* ── Shadow Enhancements ── */
+html.light-theme .shadow-sm { box-shadow: 0 1px 2px rgba(102, 126, 234, 0.05) !important; }
+html.light-theme .shadow { box-shadow: 0 2px 4px rgba(102, 126, 234, 0.06) !important; }
+html.light-theme .shadow-md { box-shadow: 0 4px 8px rgba(102, 126, 234, 0.08) !important; }
+html.light-theme .shadow-lg { box-shadow: 0 10px 40px rgba(102, 126, 234, 0.12) !important; }
+html.light-theme .shadow-xl { box-shadow: 0 20px 60px rgba(102, 126, 234, 0.18) !important; }
+html.light-theme .shadow-2xl { box-shadow: 0 25px 80px rgba(102, 126, 234, 0.25) !important; }
+
+/* ── Rounded Elements ── */
+html.light-theme .rounded-lg,
+html.light-theme .rounded-xl {
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.06);
+}
+
+/* ── Special Cases ── */
+html.light-theme .notification-counter,
+html.light-theme .badge {
+    background: #f56565 !important;
+    color: #ffffff !important;
+}
+
+html.light-theme .empty-notification {
+    color: #718096 !important;
+}
+
+/* ── Chart.js ── */
+html.light-theme canvas { 
+    filter: none !important; 
+}
+
+/* ── Login Page ── */
+html.light-theme .fixed.inset-0.bg-gradient-to-br {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.15), rgba(255, 255, 255, 0.95)) !important;
+}
+
+html.light-theme body.bg-gray-900 {
+    background: #f8f9fa !important;
+    background-image: 
+        radial-gradient(at 40% 20%, rgba(102, 126, 234, 0.05) 0px, transparent 50%),
+        radial-gradient(at 80% 0%, rgba(118, 75, 162, 0.05) 0px, transparent 50%),
+        radial-gradient(at 0% 50%, rgba(102, 126, 234, 0.03) 0px, transparent 50%) !important;
+}
+
+/* ── Activity Log Icons ── */
+html.light-theme .bg-green-500\/20 { background: rgba(72, 187, 120, 0.15) !important; }
+html.light-theme .bg-orange-500\/20 { background: rgba(246, 173, 85, 0.15) !important; }
+html.light-theme .bg-blue-500\/20 { background: rgba(102, 126, 234, 0.15) !important; }
+html.light-theme .bg-yellow-500\/20 { background: rgba(237, 137, 54, 0.15) !important; }
+html.light-theme .bg-red-500\/20 { background: rgba(245, 101, 101, 0.15) !important; }
